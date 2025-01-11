@@ -41,3 +41,4 @@ Your contributions will help make this project even better!
 1. Clone the repository.
    ```bash
    git clone https://github.com/your-repo/custom-nextjs-blog.git
+   ```
