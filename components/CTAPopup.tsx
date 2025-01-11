@@ -42,9 +42,9 @@ const CTAPopup = () => {
       });
 
       if (response.ok) {
-        const data = await response.json();
         alert('Data saved successfully!');
         setFormData({ name: '', email: '' });
+        setIsVisible(false); // Close the popup after successful save
       } else {
         const errorData = await response.json();
         alert(`Failed to save data: ${errorData.message}`);
